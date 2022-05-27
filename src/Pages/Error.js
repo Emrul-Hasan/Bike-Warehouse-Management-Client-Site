@@ -6,10 +6,7 @@ const Error = () => {
 			<div className='row  text-center'>
 				<h1 className='display-1  text-bold'>Oops!</h1>
 				<h3 className='display-4'>404 - PAGE NOT FOUND</h3>
-				<p className='text-muted'>
-					The page you are looking for might have removed had its name changed
-					or is temporarily unavailable.
-				</p>
+
 				<Link
 					style={{ color: "#bbb" }}
 					to='/'

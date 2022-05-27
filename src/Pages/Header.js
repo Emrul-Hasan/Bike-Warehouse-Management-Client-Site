@@ -20,10 +20,10 @@ const Header = () => {
 	};
 
 	return (
-		<Navbar bg='secondary' expand='lg'>
+		<Navbar bg='dark' expand='lg'>
 			<Container>
 				<Navbar.Brand as={Link} to='/' className='text-white'>
-					Transport Inc
+					<p className="fw-bold">Bangla-Motor LTD</p>
 				</Navbar.Brand>
 				<Navbar.Toggle aria-controls='navbarScroll' />
 				<Navbar.Collapse id='navbarScroll'>
@@ -78,7 +78,7 @@ const Header = () => {
 									onClick={handleSignOut}
 									className='btn btn-primray btn-link text-white text-decoration-none'
 								>
-									Sign Out
+									SignOut
 								</button>
 							</>
 						) : (
