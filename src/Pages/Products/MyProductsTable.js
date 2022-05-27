@@ -79,10 +79,8 @@ const MyProductsTable = () => {
 	const [loading, setLoading] = useState(true);
 	const [products, setProducts] = useState([]);
 	const [user, userLoading] = useAuthState(auth);
-	// const [error, setError] = useState("");
 	const email = user.email;
 	const navigate = useNavigate();
-	// console.log(email);
 
 	useEffect(() => {
 		if (email) {
