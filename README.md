@@ -10,14 +10,14 @@ This application mainly focused to maintain warehouse items organization. We can
 
 ## Project Features
   - This website basically display items. 
-  - This website has Email based and Google authentication
+  - Admin manage the product quantity and price Email based and Google authentication login system
   - This website has protected route
   - This website is mobile responsive. 
   - Here we use some modern technologies 
     - React
     - React Router
     - Bootstrap 5
-    - Authenteication
+    - Authentication
     - React Icon
     - React Toastify
     - JWT Authorization
